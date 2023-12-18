@@ -12,6 +12,10 @@ body {max-width: 1300px;
     color:violet ;
 }
 
+.up {
+    text-decoration: none;
+    color: black;
+}
 .section {
     display: flex;
     flex-direction: row;
@@ -47,6 +51,7 @@ body {max-width: 1300px;
     text-align: center;
    gap: 50px;
 }
+
 h1 {font-size: 40px;
     margin: 0 100px;
 }
@@ -133,8 +138,8 @@ h1 {font-size: 40px;
 .tours-location {align-items: center;
     display: flex;
     gap: 5px;
-    text-decoration: none;
 }
+
 .map-image {
     width: 20px;
     height: 20px;
@@ -166,10 +171,16 @@ h5 {
     width: 100%;
 }
 
+.Gallery {
+    background-color: rgb(110, 110, 204);
+    
+}
+
 @media screen and (min-width: 700px) {
 .footer-galery{
     width: 320px;
 }
+
 }
 
 @media screen and (min-width: 950px) {
@@ -209,4 +220,10 @@ h5 {
   .services {
     flex: 0 0 50%;
   }
+}
+
+@media screen and (max-width: 950px) {
+    .up {
+        display: none;
+    }
 }
