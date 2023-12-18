@@ -1,0 +1,212 @@
+*, *::before, * ::after {
+    box-sizing: border-box;
+}
+
+body {max-width: 1300px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-name {
+    color:violet ;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+    padding: 30px;
+    align-items: center;
+}
+
+.header-social-logo {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin:10px 70px ;
+}
+
+.begining {
+    background-color: rgb(110, 110, 204);
+    width:auto;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+   gap: 50px;
+}
+h1 {font-size: 40px;
+    margin: 0 100px;
+}
+
+.explore {
+    color: white;
+    text-decoration: none;
+}
+
+.topic {
+    margin: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    font-size:30px;
+}
+
+.container-content {
+ margin: 50px;
+}
+
+.container-image {;
+    width: 100%; 
+}
+
+.Read-more {
+  text-decoration: none;
+  color: rgb(110, 110, 204); 
+}
+
+.services {
+    width: 100%;
+    padding: 50px;
+    justify-content: center;
+    background-color: rgb(230, 239, 245);
+    text-align: center;
+}
+
+.topic-pic {
+    background-color: rgb(110, 110, 204);
+    display: inline-block;
+   margin-bottom: 15px;
+   padding: 5px;
+}
+
+.topic-text {
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.features {width: auto;
+    min-width: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.tour {
+   margin-left: auto;
+   margin-right: auto;
+}
+.tours-data {
+    width: fit-content;
+    height: 30px;
+    background-color:rgb(110, 110, 204) ;
+    padding: 5px;
+    position: relative;
+    top: 60px;
+}
+
+.tours-image {
+ width: 350px;
+ height: 260px;
+}
+
+.location {
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
+   
+}
+
+.tours-location {align-items: center;
+    display: flex;
+    gap: 5px;
+    text-decoration: none;
+}
+.map-image {
+    width: 20px;
+    height: 20px;
+}
+
+.period-price {width: 100px;
+display: flex;
+flex-wrap: wrap;
+}
+
+.period {
+    margin: 0px;
+}
+
+.price {
+    margin: 0px;
+}
+
+h5 {
+    font-size: large;
+    padding: 10px;
+}
+
+.small {padding: 80px;
+    text-align: center;
+}
+
+.footer-galery {
+    width: 100%;
+}
+
+@media screen and (min-width: 700px) {
+.footer-galery{
+    width: 320px;
+}
+}
+
+@media screen and (min-width: 950px) {
+    
+    .begining {
+        background-image: url("images/hiking 2.jpg"); 
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        opacity: 0.7;
+    }
+.explore {
+    width: 120px;
+    height: 30px;
+    background-color:rgb(110, 110, 204) ;
+    padding: 5px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.st-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   justify-items: center;
+   align-items: center;
+   gap: 70px;
+}
+
+.container-image {
+    box-shadow: 10px 10px 0 0px rgb(253, 251, 251),10px 10px 0 8px rgb(110, 110, 204);
+}
+
+.container-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .services {
+    flex: 0 0 50%;
+  }
+}
